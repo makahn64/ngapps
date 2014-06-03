@@ -1,0 +1,9 @@
+<h1>{{ pageName }}</h1>
+<label class="cbox fi" ng-repeat="tt in talkToChoices">
+    <input
+            type="checkbox"
+            name="selectedFruits[]"
+            value="{{tt}}"
+            > {{tt}}<br>
+</label>
+<a href="#/page3">Continue</a>

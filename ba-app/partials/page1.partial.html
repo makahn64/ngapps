@@ -1,0 +1,10 @@
+<h1>{{ pageName }}</h1>
+<label class="cbox fi" ng-repeat="a in answers">
+    <input
+            type="checkbox"
+            name="answer"
+            ng-change="clicked($index);"
+            ng-model="chosen[$index]"
+            > {{a}}<br>
+</label>
+<a href="#/page2">Continue</a>

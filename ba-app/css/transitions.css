@@ -1,0 +1,43 @@
+.xf.ng-enter
+{
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity:0;
+}
+.xf.ng-enter-active
+{
+    opacity:1;
+}
+
+
+.xf.ng-leave
+{
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.xf.ng-leave-active
+{
+    opacity:0;
+}
+
+.fi.ng-enter
+{
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity:0;
+}
+.fi.ng-enter-active
+{
+    opacity:1;
+}
+
+
+.fi.ng-leave
+{
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.fi.ng-leave-active
+{
+    opacity:0;
+}

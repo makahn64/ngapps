@@ -1,0 +1,10 @@
+<!-- The name field in the input keeps the radio buttons from selecting multiples -->
+<h1>{{ pageName }}</h1>
+<label class="cbox" ng-repeat="h in howChoices">
+    <input
+            type="radio"
+            name="how"
+            value="{{h}}"
+            > {{h}}<br>
+</label>
+<a href="#/page5">Continue</a>
